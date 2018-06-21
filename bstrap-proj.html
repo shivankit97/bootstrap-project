@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Bootstrap 4 Layout</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.scss">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-4">
+                <a class="navbar-brand" href="#">Company Name</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">Products</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Product 1</a>
+                                <a class="dropdown-item" href="#">Product 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Product 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li> 
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="jumbotron">
+                <h1 class="display-4">Simple. Heading</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores itaque totam quam voluptatum ullam, magni sunt officia saepe! Officia nam aperiam blanditiis suscipit corporis eligendi quia natus. Minus, vel fuga.</p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p>
+            </div> 
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">some text for the card body so that it can look cool</p>
+                            <a class="card-link" href="#">card link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">some text for the card body so that it can look cool</p>
+                            <a class="card-link" href="#">card link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">some text for the card body so that it can look cool</p>
+                            <a class="card-link" href="#">card link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-sm-4 mt-md-0">
+                <div class="col-sm-12 col-md-8 text-sm-center text-md-left">
+                    <h1 class="display-4">It's a Heading</h1>
+                    <p class="lead">this is some important paragraph you should definetly read.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita architecto vel nobis numquam, tempora necessitatibus aut ea aliquid magni voluptatum dolor nesciunt cum voluptates laudantium beatae ipsa, distinctio deleniti officiis?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic ducimus dolor possimus eveniet vero velit error! Delectus, illo in tempora dolore nobis illum, nulla est consequuntur eum quae, optio veniam!</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h3 class="mb-4">Menu</h3>
+                    <ul class="nav flex-column nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Another link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disable</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </body>
+</html>
